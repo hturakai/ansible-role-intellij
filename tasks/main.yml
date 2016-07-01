@@ -4,5 +4,5 @@
     path: "{{ intellij_install_dir }}"
   register: intellij
 
-- include: intellij_install.yml
+- include: install_intellij.yml
   when: (not intellij.stat.exists)
