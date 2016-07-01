@@ -1,6 +1,8 @@
 ---
 # Package states: installed or latest
 intellij_pkg_state: installed
-intellij_tmp: /tmp/ideaIC-{{intellij_version}}.tar.gz
+intellij_type: IC
 intellij_install_dir: /opt/intellij
-intellij_version: 14.1.4
+intellij_version: 2016.1.3
+intellij_url: "http://download.jetbrains.com/idea/idea{{ intellij_type }}-{{ intellij_version }}.tar.gz"
+intellij_tmp: "/tmp/idea{{ intellij_type }}-{{ intellij_version }}.tar.gz"
